@@ -114,6 +114,11 @@ Incidence 는 1:4 PS matching 결과 이용 (단위, 1000 명당)
 **경제성평가 모형은 무엇인지? Decision tree? Markov?**
 ]
 
+---
+
+```{r, echo=F}
+rmarkdown::paged_table(data.table::fread("statin.csv"))
+```
 
 ---
 class: center, middle
