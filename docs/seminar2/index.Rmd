@@ -1,0 +1,74 @@
+---
+title: "경제성평가연구 현황(2)"
+author: 김진섭; [`r anicon::faa('github', animate='float', rtext='jinseob2kim')`](https://github.com/jinseob2kim)
+institute: "차라투(주)"
+date: "2021-10-12"
+output:
+  xaringan::moon_reader:
+    css: ["css/footer-header.css", "default"]
+    lib_dir: libs
+    nature:
+      beforeInit: "js/macros.js"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "4:3" 
+subtitle: "Aspirin/Metformin/Statin 과 위암"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
+library(knitr);library(DT);library(shiny)
+```
+
+
+layout: true
+
+<div class="my-footer"><span><a href="https://www.zarathu.com">Zarathu Co.,Ltd</a>   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<a href="https://github.com/jinseob2kim">김진섭</a></span></div> 
+
+
+---
+
+# Executive summary
+
+.large[
+CDM 결과 Aspirin/Metformin/Statin 복용이 위암사망을 감소시킴을 확인, 경제성평가 업데이트.
+- ICER 단위 명확히: 원/ 10만명 당 1명 감소
+
+- DM 환자만 대상으로 
+
+]
+
+
+
+---
+# ShinyApp
+
+<center><a href="http://147.47.68.165:1111/doctorssi/costdrug/"><img src="shiny.png" width=100%></center>
+
+---
+
+# Executive summary
+
+.large[
+CDM 결과 Aspirin/Metformin/Statin 복용이 위암사망을 감소시킴을 확인, 경제성평가 업데이트.
+- ICER 단위 명확히: 원/ 10만명 당 1명 감소
+
+- DM 환자만 대상으로 
+
+]
+
+---
+
+class: center, middle
+
+# END
